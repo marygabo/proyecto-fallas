@@ -1,3 +1,48 @@
-span {
-  color: red;
+header {
+  font-size: 0;
+  text-align: center;
+}
+
+header a {
+  display: inline-block;
+  line-height: 100px;
+}
+
+header nav {
+  display: inline-block;
+  max-width: 100%;
+  min-width: 600px;
+  width: 70%;
+}
+
+#logo {
+  min-width: 200px;
+  width: 30%;
+  background-color: darkorange;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#logo:hover {
+  min-width: 200px;
+  width: 30%;
+  background-color: aquamarine;
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav a {
+  width: 33%;
+  background-color: darkseagreen;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  width: 33%;
+  text-decoration: none;
+  background-color: aquamarine;
+  font-size: 24px;
+  font-weight: bold;
 }
